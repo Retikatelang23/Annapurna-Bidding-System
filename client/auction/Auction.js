@@ -29,13 +29,13 @@ const useStyles = makeStyles(theme => ({
   description: {
     margin: '16px',
     fontSize: '0.9em',
-    color: '#4f4f4f'
+    color: rgb(212, 222, 159)
   },
   price: {
     padding: '16px',
     margin: '16px 0px',
     display: 'flex',
-    backgroundColor: '#93c5ae3d',
+    backgroundColor: rgb(114, 125, 56),
     fontSize: '1.3em',
     color: '#375a53',
   },
@@ -126,7 +126,7 @@ export default function Auction ({match}) {
                         <Timer endTime={auction.bidEnd} update={update}/> 
                         { auction.bids.length > 0 &&  
                             <Typography component="p" variant="subtitle1" className={classes.lastBid}>
-                                {` Last bid: $ ${auction.bids[0].bid}`}
+                                {` Last bid: ₹ ${auction.bids[0].bid}`}
                             </Typography>
                         }
                         { !auth.isAuthenticated() && <Typography>Please, <Link to='/signin'>sign in</Link> to place your bid.</Typography> }
