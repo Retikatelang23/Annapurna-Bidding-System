@@ -29,13 +29,13 @@ const useStyles = makeStyles(theme => ({
   description: {
     margin: '16px',
     fontSize: '0.9em',
-    color: rgb(212, 222, 159)
+    color: '#4f4f4f',
   },
   price: {
     padding: '16px',
     margin: '16px 0px',
     display: 'flex',
-    backgroundColor: rgb(114, 125, 56),
+    backgroundColor: '#93c5ae3d',
     fontSize: '1.3em',
     color: '#375a53',
   },

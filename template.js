@@ -6,7 +6,6 @@ export default ({markup, css}) => {
           <title>Annapurna Connect</title>
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400">
           <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-          <link rel="icon" href="%PUBLIC_URL%/farmer.png" />
           <style>
               a{
                 text-decoration: none

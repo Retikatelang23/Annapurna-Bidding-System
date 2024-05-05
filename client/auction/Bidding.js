@@ -17,7 +17,7 @@ const useStyles = makeStyles(theme => ({
     },
     placeForm: {
         margin: '0px 16px 16px',
-        backgroundColor: rgb(114, 125, 56),
+        backgroundColor: '#e7ede4',
         display: 'inline-block'
     },
     marginInput: {
